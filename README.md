@@ -27,6 +27,9 @@ Built an end-to-end analytics pipeline covering:
 - Exploratory Analysis
 - Interactive Dashboarding
 
+The project demonstrates data engineering, exploratory data analysis, sports analytics, and dashboard development skills using real-world Formula 1 telemetry and race data.
+Visualizations and dashboards were built using Tableau and Power BI to communicate race strategy insights interactively.
+
 ## Tech Stack
 
 - Python
@@ -39,17 +42,6 @@ Built an end-to-end analytics pipeline covering:
 - Tableau
 - Power BI
 - Git & GitHub
-
-## Dataset Summary
-
-| Metric | Value |
-|----------|----------|
-| Seasons Analyzed | 2023–2024 |
-| Grand Prix Weekends | 46 |
-| Driver-Race Records | 918 |
-| Laps Processed | 50,000+ |
-| Teams | 10 |
-| Circuits | 20+ |
 
 ## Dashboard Preview
 
@@ -79,6 +71,7 @@ Built an end-to-end analytics pipeline covering:
 
 ## Data Pipeline
 
+```text
 FastF1 API
     ↓
 Data Collection
@@ -89,7 +82,16 @@ Feature Engineering
     ↓
 Exploratory Analysis
     ↓
-Visualization & Dashboarding
+Tableau / Power BI Dashboards
+```
+
+## Results
+
+- Analyzed 46 Formula 1 Grands Prix
+- Processed 50,000+ race laps
+- Generated 918 driver-race records
+- Built interactive Tableau dashboards
+- Produced strategy, tire, and pit stop performance analyses
 
 ## How To Run
 
@@ -108,3 +110,11 @@ python run_collection.py
 python run_cleaning.py
 python run_features.py
 python run_analysis.py
+
+## Project Structure
+
+config/          Configuration files
+data/            Raw, processed and feature datasets
+reports/         Analysis outputs and visualizations
+src/             Collection, cleaning and analysis modules
+tableau_data/    Dashboard-ready datasets
