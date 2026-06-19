@@ -1,0 +1,98 @@
+dataset,column_name,data_type,nullable,description
+laps,Deleted,object,Yes,(auto-detected — add description to _DICT_ENTRIES)
+laps,DeletedReason,object,Yes,(auto-detected — add description to _DICT_ENTRIES)
+laps,FastF1Generated,bool,No,(auto-detected — add description to _DICT_ENTRIES)
+laps,LapStartDate,datetime64[ns],Yes,(auto-detected — add description to _DICT_ENTRIES)
+laps,Position,float64,Yes,(auto-detected — add description to _DICT_ENTRIES)
+laps,Sector1SessionTime,timedelta64[ns],Yes,(auto-detected — add description to _DICT_ENTRIES)
+laps,Sector2SessionTime,timedelta64[ns],Yes,(auto-detected — add description to _DICT_ENTRIES)
+laps,Sector3SessionTime,timedelta64[ns],Yes,(auto-detected — add description to _DICT_ENTRIES)
+laps,circuit,object,No,Circuit location e.g. 'Silverstone'
+laps,compound,category,No,Tyre compound: SOFT/MEDIUM/HARD/INTERMEDIATE/WET/UNKNOWN
+laps,driver_code,object,No,Three-letter driver abbreviation
+laps,driver_number,object,No,FIA car number as string
+laps,event_name,object,No,Official FIA event name e.g. 'British Grand Prix'
+laps,fresh_tyre,bool,No,True if tyre set is new (not a used set)
+laps,is_accurate,bool,No,FastF1 timing accuracy flag; False on inlaps/outlaps
+laps,is_personal_best,object,Yes,True if this is driver's fastest lap in the session
+laps,lap_number,float64,No,Lap number within the race (1-based)
+laps,lap_start_time_s,float64,No,(auto-detected — add description to _DICT_ENTRIES)
+laps,lap_time_outlier,bool,No,"True if lap_time_s outside [60 s, 300 s] (see A1)"
+laps,lap_time_s,float64,Yes,Lap time in seconds (NaN for inlap/outlap)
+laps,pit_in_time_s,float64,Yes,Session time (s) at which driver entered pit lane
+laps,pit_out_time_s,float64,Yes,Session time (s) at which driver exited pit lane
+laps,position,N/A,No,On-track position at end of lap
+laps,round_number,int64,No,Round number within the season (1-based)
+laps,season,int64,No,F1 calendar year (2023 or 2024)
+laps,sector1_s,float64,Yes,Sector 1 time in seconds
+laps,sector2_s,float64,Yes,Sector 2 time in seconds
+laps,sector3_s,float64,Yes,Sector 3 time in seconds
+laps,session_time_s,float64,No,(auto-detected — add description to _DICT_ENTRIES)
+laps,speed_fl,float64,Yes,(auto-detected — add description to _DICT_ENTRIES)
+laps,speed_i1,float64,Yes,(auto-detected — add description to _DICT_ENTRIES)
+laps,speed_i2,float64,Yes,(auto-detected — add description to _DICT_ENTRIES)
+laps,speed_st,float64,Yes,(auto-detected — add description to _DICT_ENTRIES)
+laps,stint_number,float64,No,Stint index within race (1 = first stint)
+laps,team_name,object,No,Constructor name
+laps,track_status,object,No,"Track status codes active during lap (1=green,2=yellow,…)"
+laps,tyre_life,float64,No,Laps completed on current tyre set at end of this lap
+laps,wet_race,bool,No,True if any rainfall recorded during the race
+pitstops,circuit,object,No,Circuit location e.g. 'Silverstone'
+pitstops,compound_after,object,Yes,(auto-detected — add description to _DICT_ENTRIES)
+pitstops,compound_before,object,No,(auto-detected — add description to _DICT_ENTRIES)
+pitstops,compound_fitted,N/A,No,Tyre compound fitted during this stop
+pitstops,driver_code,object,No,Three-letter driver abbreviation
+pitstops,driver_number,object,No,FIA car number as string
+pitstops,event_name,object,No,Official FIA event name e.g. 'British Grand Prix'
+pitstops,lap_number,float64,No,Lap on which the driver pitted in
+pitstops,pit_duration_missing,bool,No,True if pit_duration_s could not be calculated (see A5)
+pitstops,pit_duration_outlier,bool,No,"True if pit_duration_s outside [1.5 s, 60 s] (see A2)"
+pitstops,pit_duration_s,float64,Yes,"Stationary pit box time in seconds (see A2, A5)"
+pitstops,pit_in_time_s,float64,No,Session time (s) at pit entry
+pitstops,pit_out_time_s,float64,Yes,Session time (s) at pit exit
+pitstops,round_number,int64,No,Round number within the season (1-based)
+pitstops,season,int64,No,F1 calendar year (2023 or 2024)
+pitstops,stint_number,float64,No,Stint number before this stop
+pitstops,stop_number,int64,No,"Sequential stop index for this driver (1, 2, 3 …)"
+pitstops,strategy_type,N/A,No,1-stop / 2-stop / 3-stop / 4+-stop derived from total_stops
+pitstops,team_name,object,No,Constructor name
+pitstops,total_stops,N/A,No,Total number of stops made by this driver in this race
+results,TeamId,object,No,(auto-detected — add description to _DICT_ENTRIES)
+results,broadcast_name,object,No,(auto-detected — add description to _DICT_ENTRIES)
+results,circuit,object,No,Circuit location e.g. 'Silverstone'
+results,classified_position,object,No,FIA classified position string including NC/R/D codes
+results,country_code,object,No,(auto-detected — add description to _DICT_ENTRIES)
+results,driver_code,object,No,Three-letter driver abbreviation e.g. 'HAM'
+results,driver_id,object,No,(auto-detected — add description to _DICT_ENTRIES)
+results,driver_number,object,No,FIA car number as string
+results,event_name,object,No,Official FIA event name e.g. 'British Grand Prix'
+results,finish_position,float64,Yes,Classified finish position (NaN = DNF/DSQ)
+results,first_name,object,No,(auto-detected — add description to _DICT_ENTRIES)
+results,full_name,object,No,Driver full name
+results,grid_position,float64,Yes,"Starting grid position (NaN = pit lane start, see A7)"
+results,headshot_url,object,No,(auto-detected — add description to _DICT_ENTRIES)
+results,last_name,object,No,(auto-detected — add description to _DICT_ENTRIES)
+results,points,float64,Yes,Championship points scored
+results,position_change,float64,Yes,grid_position − finish_position (positive = gained)
+results,q1_time,timedelta64[ns],Yes,(auto-detected — add description to _DICT_ENTRIES)
+results,q2_time,timedelta64[ns],Yes,(auto-detected — add description to _DICT_ENTRIES)
+results,q3_time,timedelta64[ns],Yes,(auto-detected — add description to _DICT_ENTRIES)
+results,race_time,timedelta64[ns],Yes,(auto-detected — add description to _DICT_ENTRIES)
+results,round_number,int64,No,Round number within the season (1-based)
+results,season,int64,No,F1 calendar year (2023 or 2024)
+results,status,object,No,FIA result status string
+results,team_color,object,No,(auto-detected — add description to _DICT_ENTRIES)
+results,team_name,object,No,Constructor name e.g. 'Mercedes'
+results,wet_race,bool,No,True if any rainfall recorded during the race (see A6)
+weather,air_temp_c,float64,No,Ambient air temperature in °C
+weather,circuit,object,No,Circuit location e.g. 'Silverstone'
+weather,event_name,object,No,Official FIA event name e.g. 'British Grand Prix'
+weather,humidity_pct,float64,No,Relative humidity in percent
+weather,pressure_mbar,float64,No,Atmospheric pressure in millibar
+weather,rainfall,bool,No,Boolean: True if precipitation recorded at this sample
+weather,round_number,int64,No,Round number within the season (1-based)
+weather,season,int64,No,F1 calendar year (2023 or 2024)
+weather,session_time_s,float64,No,Seconds elapsed since session start
+weather,track_temp_c,float64,No,Track surface temperature in °C
+weather,wind_direction_deg,int64,No,Wind direction in degrees (0 = North)
+weather,wind_speed_ms,float64,No,Wind speed in m/s

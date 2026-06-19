@@ -1,0 +1,59 @@
+dataset,metric,column_or_key,value,note
+weather,wet_race_count,rainfall,10,Races with at least one rainfall=True weather sample (A6)
+weather,dry_race_count,rainfall,36,Races with no rainfall recorded
+results,row_count,,918,
+results,col_count,,25,
+results,duplicate_rows,,0,
+results,missing_pct,finish_position,100.0,100.00% of rows have no value
+results,missing_pct,grid_position,100.0,100.00% of rows have no value
+results,missing_pct,q1_time,100.0,100.00% of rows have no value
+results,missing_pct,q2_time,100.0,100.00% of rows have no value
+results,missing_pct,q3_time,100.0,100.00% of rows have no value
+results,missing_pct,race_time,100.0,100.00% of rows have no value
+results,missing_pct,points,100.0,100.00% of rows have no value
+results,missing_pct,position_change,100.0,100.00% of rows have no value
+results,invalid_count,grid_position_pit_lane,0,
+results,invalid_count,unknown_status,918,
+results,assumption_applied,,,"A8: duplicates removed, first occurrence kept"
+results,assumption_applied,,,A7: grid_position=0 remapped to NaN (pit lane start)
+laps,row_count,,51037,
+laps,col_count,,35,
+laps,duplicate_rows,,0,
+laps,missing_pct,lap_time_s,3.07,3.07% of rows have no value
+laps,missing_pct,pit_out_time_s,96.53,96.53% of rows have no value
+laps,missing_pct,pit_in_time_s,96.49,96.49% of rows have no value
+laps,missing_pct,sector1_s,2.12,2.12% of rows have no value
+laps,missing_pct,sector2_s,0.16,0.16% of rows have no value
+laps,missing_pct,sector3_s,0.33,0.33% of rows have no value
+laps,missing_pct,Sector1SessionTime,2.33,2.33% of rows have no value
+laps,missing_pct,Sector2SessionTime,0.16,0.16% of rows have no value
+laps,missing_pct,Sector3SessionTime,0.33,0.33% of rows have no value
+laps,missing_pct,speed_i1,15.54,15.54% of rows have no value
+laps,missing_pct,speed_i2,0.2,0.20% of rows have no value
+laps,missing_pct,speed_fl,3.67,3.67% of rows have no value
+laps,missing_pct,speed_st,8.51,8.51% of rows have no value
+laps,missing_pct,is_personal_best,0.11,0.11% of rows have no value
+laps,missing_pct,LapStartDate,100.0,100.00% of rows have no value
+laps,missing_pct,Position,0.15,0.15% of rows have no value
+laps,missing_pct,Deleted,100.0,100.00% of rows have no value
+laps,missing_pct,DeletedReason,0.11,0.11% of rows have no value
+laps,invalid_count,invalid_compound,0,
+laps,invalid_count,lap_time_outlier,0,
+laps,assumption_applied,,,"A8: duplicates removed, first occurrence kept"
+laps,assumption_applied,,,A3: missing compound on inaccurate laps filled with UNKNOWN
+laps,assumption_applied,,,A4: missing compound ffilled then bfilled within driver-stint groups
+laps,assumption_applied,,,"A1: lap_time_outlier=True for lap_time_s outside [60.0, 300.0] s (rows retained)"
+pitstops,row_count,,1792,
+pitstops,col_count,,15,
+pitstops,duplicate_rows,,0,
+pitstops,missing_pct,pit_out_time_s,3.12,3.12% of rows have no value
+pitstops,missing_pct,pit_duration_s,3.12,3.12% of rows have no value
+pitstops,missing_pct,compound_after,3.12,3.12% of rows have no value
+pitstops,invalid_count,pit_duration_missing,56,
+pitstops,invalid_count,pit_duration_outlier,159,
+pitstops,assumption_applied,,,"A5: missing pit_duration_s retained as NaN, flagged with pit_duration_missing"
+pitstops,assumption_applied,,,"A2: pit_duration_outlier=True for pit_duration_s outside [1.5, 60.0] s (rows retained)"
+weather,row_count,,7309,
+weather,col_count,,12,
+weather,duplicate_rows,,0,
+weather,invalid_count,pressure_mbar_clipped,349,

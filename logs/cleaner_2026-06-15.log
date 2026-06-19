@@ -1,0 +1,30 @@
+2026-06-15 19:32:00 | INFO     | f1_cleaner:321 | F1DataCleaner initialised
+2026-06-15 19:32:00 | INFO     | f1_cleaner:322 |   processed_dir : /Users/misty/Documents/f1-race-strategy-analytics/data/processed
+2026-06-15 19:32:00 | INFO     | f1_cleaner:323 |   reports_dir   : /Users/misty/Documents/f1-race-strategy-analytics/reports
+2026-06-15 19:32:00 | INFO     | f1_cleaner:346 | ============================================================
+2026-06-15 19:32:00 | INFO     | f1_cleaner:347 | F1DataCleaner pipeline — START
+2026-06-15 19:32:00 | INFO     | f1_cleaner:348 | ============================================================
+2026-06-15 19:32:00 | INFO     | f1_cleaner:186 | Loaded results       files= 46  rows=    918  cols=25
+2026-06-15 19:32:00 | INFO     | f1_cleaner:186 | Loaded laps          files= 46  rows=  51037  cols=35
+2026-06-15 19:32:00 | INFO     | f1_cleaner:186 | Loaded pitstops      files= 46  rows=   1792  cols=15
+2026-06-15 19:32:00 | INFO     | f1_cleaner:186 | Loaded weather       files= 46  rows=   7309  cols=12
+2026-06-15 19:32:00 | INFO     | f1_cleaner:422 | Wet race detection: 10 wet / 36 dry out of 46 races
+2026-06-15 19:32:00 | DEBUG    | f1_cleaner:496 | Results: 918 rows with unrecognised status: ['']
+2026-06-15 19:32:00 | INFO     | f1_cleaner:512 | Results cleaned: 918 rows
+2026-06-15 19:32:00 | INFO     | f1_cleaner:602 | Laps: compound — 0 missing before, 2 UNKNOWN after fill
+2026-06-15 19:32:00 | INFO     | f1_cleaner:634 | Laps: 0 lap time outliers flagged (outside 60–300 s)
+2026-06-15 19:32:00 | INFO     | f1_cleaner:652 | Laps cleaned: 51037 rows
+2026-06-15 19:32:00 | INFO     | f1_cleaner:700 | Pit stops: 56 rows with missing pit_duration_s
+2026-06-15 19:32:00 | INFO     | f1_cleaner:713 | Pit stops: 159 duration outliers flagged (outside 1.5–60 s)
+2026-06-15 19:32:00 | INFO     | f1_cleaner:761 | Pit stops cleaned: 1792 rows
+2026-06-15 19:32:01 | WARNING  | f1_cleaner:819 | Weather: 349 out-of-range values in pressure_mbar clipped to [800, 1100]
+2026-06-15 19:32:01 | INFO     | f1_cleaner:831 | Weather cleaned: 7309 rows
+2026-06-15 19:32:01 | INFO     | f1_cleaner:195 | Saved  data/processed/results.parquet                      rows=918
+2026-06-15 19:32:01 | INFO     | f1_cleaner:195 | Saved  data/processed/laps.parquet                         rows=51037
+2026-06-15 19:32:01 | INFO     | f1_cleaner:195 | Saved  data/processed/pitstops.parquet                     rows=1792
+2026-06-15 19:32:01 | INFO     | f1_cleaner:195 | Saved  data/processed/weather.parquet                      rows=7309
+2026-06-15 19:32:01 | INFO     | f1_cleaner:905 | Quality report → reports/quality_report.csv  (58 rows)
+2026-06-15 19:32:01 | INFO     | f1_cleaner:966 | Data dictionary → reports/data_dictionary.csv  (97 entries)
+2026-06-15 19:32:01 | INFO     | f1_cleaner:382 | ============================================================
+2026-06-15 19:32:01 | INFO     | f1_cleaner:383 | F1DataCleaner pipeline — COMPLETE
+2026-06-15 19:32:01 | INFO     | f1_cleaner:384 | ============================================================

@@ -1,0 +1,110 @@
+2026-06-19 07:41:50 | INFO     | src.data.collector:__init__:177 | FastF1 cache  : /Users/misty/Documents/f1-race-strategy-analytics/.fastf1_cache
+2026-06-19 07:41:50 | INFO     | src.data.collector:__init__:178 | Seasons       : [2023, 2024]
+2026-06-19 07:41:50 | INFO     | src.data.collector:__init__:179 | Session type  : R
+2026-06-19 07:41:50 | INFO     | src.data.collector:__init__:180 | Overwrite     : False
+2026-06-19 07:41:50 | INFO     | src.data.collector:run:189 | ============================================================
+2026-06-19 07:41:50 | INFO     | src.data.collector:run:190 | F1 Data Collection Pipeline — START
+2026-06-19 07:41:50 | INFO     | src.data.collector:run:191 | ============================================================
+2026-06-19 07:41:50 | INFO     | src.data.collector:_collect_season:219 | ── Season 2023 ──────────────────────────────────
+2026-06-19 07:41:52 | INFO     | src.data.collector:_collect_season:229 | Season 2023: 22 race events found
+2026-06-19 07:41:52 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R01 — Bahrain Grand Prix
+2026-06-19 07:41:52 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R01 — Bahrain Grand Prix
+2026-06-19 07:41:53 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R02 — Saudi Arabian Grand Prix
+2026-06-19 07:41:53 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R02 — Saudi Arabian Grand Prix
+2026-06-19 07:41:54 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R03 — Australian Grand Prix
+2026-06-19 07:41:54 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R03 — Australian Grand Prix
+2026-06-19 07:41:55 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R04 — Azerbaijan Grand Prix
+2026-06-19 07:41:55 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R04 — Azerbaijan Grand Prix
+2026-06-19 07:41:56 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R05 — Miami Grand Prix
+2026-06-19 07:41:56 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R05 — Miami Grand Prix
+2026-06-19 07:41:57 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R06 — Monaco Grand Prix
+2026-06-19 07:41:57 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R06 — Monaco Grand Prix
+2026-06-19 07:41:58 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R07 — Spanish Grand Prix
+2026-06-19 07:41:58 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R07 — Spanish Grand Prix
+2026-06-19 07:41:59 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R08 — Canadian Grand Prix
+2026-06-19 07:41:59 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R08 — Canadian Grand Prix
+2026-06-19 07:42:00 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R09 — Austrian Grand Prix
+2026-06-19 07:42:00 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R09 — Austrian Grand Prix
+2026-06-19 07:42:01 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R10 — British Grand Prix
+2026-06-19 07:42:01 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R10 — British Grand Prix
+2026-06-19 07:42:02 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R11 — Hungarian Grand Prix
+2026-06-19 07:42:02 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R11 — Hungarian Grand Prix
+2026-06-19 07:42:03 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R12 — Belgian Grand Prix
+2026-06-19 07:42:03 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R12 — Belgian Grand Prix
+2026-06-19 07:42:04 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R13 — Dutch Grand Prix
+2026-06-19 07:42:04 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R13 — Dutch Grand Prix
+2026-06-19 07:42:05 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R14 — Italian Grand Prix
+2026-06-19 07:42:05 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R14 — Italian Grand Prix
+2026-06-19 07:42:06 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R15 — Singapore Grand Prix
+2026-06-19 07:42:06 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R15 — Singapore Grand Prix
+2026-06-19 07:42:07 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R16 — Japanese Grand Prix
+2026-06-19 07:42:07 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R16 — Japanese Grand Prix
+2026-06-19 07:42:08 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R17 — Qatar Grand Prix
+2026-06-19 07:42:08 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R17 — Qatar Grand Prix
+2026-06-19 07:42:09 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R18 — United States Grand Prix
+2026-06-19 07:42:09 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R18 — United States Grand Prix
+2026-06-19 07:42:10 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R19 — Mexico City Grand Prix
+2026-06-19 07:42:10 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R19 — Mexico City Grand Prix
+2026-06-19 07:42:11 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R20 — São Paulo Grand Prix
+2026-06-19 07:42:11 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R20 — São Paulo Grand Prix
+2026-06-19 07:42:12 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R21 — Las Vegas Grand Prix
+2026-06-19 07:42:12 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R21 — Las Vegas Grand Prix
+2026-06-19 07:42:13 | INFO     | src.data.collector:_collect_race:257 | Processing: 2023 R22 — Abu Dhabi Grand Prix
+2026-06-19 07:42:13 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2023 R22 — Abu Dhabi Grand Prix
+2026-06-19 07:42:14 | INFO     | src.data.collector:_collect_season:219 | ── Season 2024 ──────────────────────────────────
+2026-06-19 07:42:17 | INFO     | src.data.collector:_collect_season:229 | Season 2024: 24 race events found
+2026-06-19 07:42:17 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R01 — Bahrain Grand Prix
+2026-06-19 07:42:17 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R01 — Bahrain Grand Prix
+2026-06-19 07:42:18 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R02 — Saudi Arabian Grand Prix
+2026-06-19 07:42:18 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R02 — Saudi Arabian Grand Prix
+2026-06-19 07:42:19 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R03 — Australian Grand Prix
+2026-06-19 07:42:19 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R03 — Australian Grand Prix
+2026-06-19 07:42:20 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R04 — Japanese Grand Prix
+2026-06-19 07:42:20 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R04 — Japanese Grand Prix
+2026-06-19 07:42:21 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R05 — Chinese Grand Prix
+2026-06-19 07:42:21 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R05 — Chinese Grand Prix
+2026-06-19 07:42:22 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R06 — Miami Grand Prix
+2026-06-19 07:42:22 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R06 — Miami Grand Prix
+2026-06-19 07:42:23 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R07 — Emilia Romagna Grand Prix
+2026-06-19 07:42:23 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R07 — Emilia Romagna Grand Prix
+2026-06-19 07:42:24 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R08 — Monaco Grand Prix
+2026-06-19 07:42:24 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R08 — Monaco Grand Prix
+2026-06-19 07:42:25 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R09 — Canadian Grand Prix
+2026-06-19 07:42:25 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R09 — Canadian Grand Prix
+2026-06-19 07:42:26 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R10 — Spanish Grand Prix
+2026-06-19 07:42:26 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R10 — Spanish Grand Prix
+2026-06-19 07:42:27 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R11 — Austrian Grand Prix
+2026-06-19 07:42:27 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R11 — Austrian Grand Prix
+2026-06-19 07:42:28 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R12 — British Grand Prix
+2026-06-19 07:42:28 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R12 — British Grand Prix
+2026-06-19 07:42:29 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R13 — Hungarian Grand Prix
+2026-06-19 07:42:29 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R13 — Hungarian Grand Prix
+2026-06-19 07:42:30 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R14 — Belgian Grand Prix
+2026-06-19 07:42:30 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R14 — Belgian Grand Prix
+2026-06-19 07:42:31 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R15 — Dutch Grand Prix
+2026-06-19 07:42:31 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R15 — Dutch Grand Prix
+2026-06-19 07:42:32 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R16 — Italian Grand Prix
+2026-06-19 07:42:32 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R16 — Italian Grand Prix
+2026-06-19 07:42:33 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R17 — Azerbaijan Grand Prix
+2026-06-19 07:42:33 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R17 — Azerbaijan Grand Prix
+2026-06-19 07:42:34 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R18 — Singapore Grand Prix
+2026-06-19 07:42:34 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R18 — Singapore Grand Prix
+2026-06-19 07:42:35 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R19 — United States Grand Prix
+2026-06-19 07:42:35 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R19 — United States Grand Prix
+2026-06-19 07:42:36 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R20 — Mexico City Grand Prix
+2026-06-19 07:42:36 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R20 — Mexico City Grand Prix
+2026-06-19 07:42:37 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R21 — São Paulo Grand Prix
+2026-06-19 07:42:37 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R21 — São Paulo Grand Prix
+2026-06-19 07:42:38 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R22 — Las Vegas Grand Prix
+2026-06-19 07:42:38 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R22 — Las Vegas Grand Prix
+2026-06-19 07:42:39 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R23 — Qatar Grand Prix
+2026-06-19 07:42:39 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R23 — Qatar Grand Prix
+2026-06-19 07:42:40 | INFO     | src.data.collector:_collect_race:257 | Processing: 2024 R24 — Abu Dhabi Grand Prix
+2026-06-19 07:42:40 | INFO     | src.data.collector:_collect_race:271 |   SKIP — all files already exist for 2024 R24 — Abu Dhabi Grand Prix
+2026-06-19 07:42:41 | INFO     | src.data.collector:_log_summary:672 | ============================================================
+2026-06-19 07:42:41 | INFO     | src.data.collector:_log_summary:673 | Collection complete
+2026-06-19 07:42:41 | INFO     | src.data.collector:_log_summary:674 |   Total  : 46
+2026-06-19 07:42:41 | INFO     | src.data.collector:_log_summary:675 |   OK     : 0
+2026-06-19 07:42:41 | INFO     | src.data.collector:_log_summary:676 |   Skipped: 46
+2026-06-19 07:42:41 | INFO     | src.data.collector:_log_summary:677 |   Failed : 0
+2026-06-19 07:42:41 | INFO     | src.data.collector:_log_summary:682 | ============================================================

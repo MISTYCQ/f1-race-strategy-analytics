@@ -1,0 +1,123 @@
+2026-06-14 15:03:56 | INFO     | run_cleaning:248 | run_cleaning.py starting
+2026-06-14 15:03:56 | INFO     | run_cleaning:249 | Arguments: processed_dir=/Users/misty/Documents/f1-race-strategy-analytics/data/processed  reports_dir=/Users/misty/Documents/f1-race-strategy-analytics/reports  quiet=False
+2026-06-14 15:03:57 | INFO     | f1_cleaner:321 | F1DataCleaner initialised
+2026-06-14 15:03:57 | INFO     | f1_cleaner:322 |   processed_dir : /Users/misty/Documents/f1-race-strategy-analytics/data/processed
+2026-06-14 15:03:57 | INFO     | f1_cleaner:323 |   reports_dir   : /Users/misty/Documents/f1-race-strategy-analytics/reports
+2026-06-14 15:03:57 | INFO     | f1_cleaner:346 | ============================================================
+2026-06-14 15:03:57 | INFO     | f1_cleaner:347 | F1DataCleaner pipeline — START
+2026-06-14 15:03:57 | INFO     | f1_cleaner:348 | ============================================================
+2026-06-14 15:03:57 | WARNING  | f1_cleaner:167 | Directory not found: /Users/misty/Documents/f1-race-strategy-analytics/data/raw/results
+2026-06-14 15:03:58 | INFO     | f1_cleaner:186 | Loaded laps          files= 46  rows=  51037  cols=35
+2026-06-14 15:03:58 | WARNING  | f1_cleaner:167 | Directory not found: /Users/misty/Documents/f1-race-strategy-analytics/data/raw/pitstops
+2026-06-14 15:03:58 | INFO     | f1_cleaner:186 | Loaded weather       files= 46  rows=   7309  cols=12
+2026-06-14 15:03:58 | INFO     | f1_cleaner:422 | Wet race detection: 10 wet / 36 dry out of 46 races
+2026-06-14 15:03:58 | WARNING  | f1_cleaner:460 | Results dataset is empty — skipping.
+2026-06-14 15:03:58 | INFO     | f1_cleaner:602 | Laps: compound — 0 missing before, 2 UNKNOWN after fill
+2026-06-14 15:03:58 | INFO     | f1_cleaner:634 | Laps: 0 lap time outliers flagged (outside 60–300 s)
+2026-06-14 15:03:58 | INFO     | f1_cleaner:652 | Laps cleaned: 51037 rows
+2026-06-14 15:03:58 | WARNING  | f1_cleaner:673 | Pit stops dataset is empty — skipping.
+2026-06-14 15:03:58 | WARNING  | f1_cleaner:819 | Weather: 349 out-of-range values in pressure_mbar clipped to [800, 1100]
+2026-06-14 15:03:58 | INFO     | f1_cleaner:831 | Weather cleaned: 7309 rows
+2026-06-14 15:03:58 | INFO     | f1_cleaner:195 | Saved  data/processed/results.parquet                      rows=0
+2026-06-14 15:03:58 | INFO     | f1_cleaner:195 | Saved  data/processed/laps.parquet                         rows=51037
+2026-06-14 15:03:58 | INFO     | f1_cleaner:195 | Saved  data/processed/pitstops.parquet                     rows=0
+2026-06-14 15:03:58 | INFO     | f1_cleaner:195 | Saved  data/processed/weather.parquet                      rows=7309
+2026-06-14 15:03:58 | INFO     | f1_cleaner:905 | Quality report → reports/quality_report.csv  (33 rows)
+2026-06-14 15:03:58 | INFO     | f1_cleaner:966 | Data dictionary → reports/data_dictionary.csv  (83 entries)
+2026-06-14 15:03:58 | INFO     | f1_cleaner:382 | ============================================================
+2026-06-14 15:03:58 | INFO     | f1_cleaner:383 | F1DataCleaner pipeline — COMPLETE
+2026-06-14 15:03:58 | INFO     | f1_cleaner:384 | ============================================================
+2026-06-14 15:03:58 | INFO     | run_cleaning:322 | Cleaning complete: 2 datasets, 46 total races, 1.5 s elapsed
+2026-06-14 15:04:15 | INFO     | run_cleaning:248 | run_cleaning.py starting
+2026-06-14 15:04:15 | INFO     | run_cleaning:249 | Arguments: processed_dir=data/processed  reports_dir=reports  quiet=False
+2026-06-14 15:04:15 | INFO     | f1_cleaner:321 | F1DataCleaner initialised
+2026-06-14 15:04:15 | INFO     | f1_cleaner:322 |   processed_dir : data/processed
+2026-06-14 15:04:15 | INFO     | f1_cleaner:323 |   reports_dir   : reports
+2026-06-14 15:04:15 | INFO     | f1_cleaner:346 | ============================================================
+2026-06-14 15:04:15 | INFO     | f1_cleaner:347 | F1DataCleaner pipeline — START
+2026-06-14 15:04:15 | INFO     | f1_cleaner:348 | ============================================================
+2026-06-14 15:04:15 | WARNING  | f1_cleaner:167 | Directory not found: /Users/misty/Documents/f1-race-strategy-analytics/data/raw/results
+2026-06-14 15:04:15 | INFO     | f1_cleaner:186 | Loaded laps          files= 46  rows=  51037  cols=35
+2026-06-14 15:04:15 | WARNING  | f1_cleaner:167 | Directory not found: /Users/misty/Documents/f1-race-strategy-analytics/data/raw/pitstops
+2026-06-14 15:04:15 | INFO     | f1_cleaner:186 | Loaded weather       files= 46  rows=   7309  cols=12
+2026-06-14 15:04:15 | INFO     | f1_cleaner:422 | Wet race detection: 10 wet / 36 dry out of 46 races
+2026-06-14 15:04:15 | WARNING  | f1_cleaner:460 | Results dataset is empty — skipping.
+2026-06-14 15:04:15 | INFO     | f1_cleaner:602 | Laps: compound — 0 missing before, 2 UNKNOWN after fill
+2026-06-14 15:04:15 | INFO     | f1_cleaner:634 | Laps: 0 lap time outliers flagged (outside 60–300 s)
+2026-06-14 15:04:15 | INFO     | f1_cleaner:652 | Laps cleaned: 51037 rows
+2026-06-14 15:04:15 | WARNING  | f1_cleaner:673 | Pit stops dataset is empty — skipping.
+2026-06-14 15:04:15 | WARNING  | f1_cleaner:819 | Weather: 349 out-of-range values in pressure_mbar clipped to [800, 1100]
+2026-06-14 15:04:15 | INFO     | f1_cleaner:831 | Weather cleaned: 7309 rows
+2026-06-14 15:04:15 | CRITICAL | run_cleaning:303 | Cleaning pipeline encountered a fatal error: 'data/processed/results.parquet' is not in the subpath of '/Users/misty/Documents/f1-race-strategy-analytics'
+Traceback (most recent call last):
+  File "/Users/misty/Documents/f1-race-strategy-analytics/run_cleaning.py", line 288, in main
+    report = cleaner.run()
+             ^^^^^^^^^^^^^
+  File "/Users/misty/Documents/f1-race-strategy-analytics/src/data/cleaner.py", line 366, in run
+    _write_parquet(clean_results,  self.processed_dir / "results.parquet")
+  File "/Users/misty/Documents/f1-race-strategy-analytics/src/data/cleaner.py", line 195, in _write_parquet
+    log.info("Saved  %-50s  rows=%d", path.relative_to(PROJECT_ROOT), len(df))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13_4/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pathlib.py", line 682, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+ValueError: 'data/processed/results.parquet' is not in the subpath of '/Users/misty/Documents/f1-race-strategy-analytics'
+2026-06-14 15:04:45 | INFO     | run_cleaning:248 | run_cleaning.py starting
+2026-06-14 15:04:45 | INFO     | run_cleaning:249 | Arguments: processed_dir=/Users/misty/Documents/f1-race-strategy-analytics/data/processed  reports_dir=/Users/misty/Documents/f1-race-strategy-analytics/reports  quiet=False
+2026-06-14 15:04:45 | INFO     | f1_cleaner:321 | F1DataCleaner initialised
+2026-06-14 15:04:45 | INFO     | f1_cleaner:322 |   processed_dir : /Users/misty/Documents/f1-race-strategy-analytics/data/processed
+2026-06-14 15:04:45 | INFO     | f1_cleaner:323 |   reports_dir   : /Users/misty/Documents/f1-race-strategy-analytics/reports
+2026-06-14 15:04:45 | INFO     | f1_cleaner:346 | ============================================================
+2026-06-14 15:04:45 | INFO     | f1_cleaner:347 | F1DataCleaner pipeline — START
+2026-06-14 15:04:45 | INFO     | f1_cleaner:348 | ============================================================
+2026-06-14 15:04:45 | WARNING  | f1_cleaner:167 | Directory not found: /Users/misty/Documents/f1-race-strategy-analytics/data/raw/results
+2026-06-14 15:04:45 | INFO     | f1_cleaner:186 | Loaded laps          files= 46  rows=  51037  cols=35
+2026-06-14 15:04:45 | WARNING  | f1_cleaner:167 | Directory not found: /Users/misty/Documents/f1-race-strategy-analytics/data/raw/pitstops
+2026-06-14 15:04:45 | INFO     | f1_cleaner:186 | Loaded weather       files= 46  rows=   7309  cols=12
+2026-06-14 15:04:45 | INFO     | f1_cleaner:422 | Wet race detection: 10 wet / 36 dry out of 46 races
+2026-06-14 15:04:45 | WARNING  | f1_cleaner:460 | Results dataset is empty — skipping.
+2026-06-14 15:04:45 | INFO     | f1_cleaner:602 | Laps: compound — 0 missing before, 2 UNKNOWN after fill
+2026-06-14 15:04:45 | INFO     | f1_cleaner:634 | Laps: 0 lap time outliers flagged (outside 60–300 s)
+2026-06-14 15:04:45 | INFO     | f1_cleaner:652 | Laps cleaned: 51037 rows
+2026-06-14 15:04:45 | WARNING  | f1_cleaner:673 | Pit stops dataset is empty — skipping.
+2026-06-14 15:04:45 | WARNING  | f1_cleaner:819 | Weather: 349 out-of-range values in pressure_mbar clipped to [800, 1100]
+2026-06-14 15:04:45 | INFO     | f1_cleaner:831 | Weather cleaned: 7309 rows
+2026-06-14 15:04:45 | INFO     | f1_cleaner:195 | Saved  data/processed/results.parquet                      rows=0
+2026-06-14 15:04:45 | INFO     | f1_cleaner:195 | Saved  data/processed/laps.parquet                         rows=51037
+2026-06-14 15:04:45 | INFO     | f1_cleaner:195 | Saved  data/processed/pitstops.parquet                     rows=0
+2026-06-14 15:04:45 | INFO     | f1_cleaner:195 | Saved  data/processed/weather.parquet                      rows=7309
+2026-06-14 15:04:45 | INFO     | f1_cleaner:905 | Quality report → reports/quality_report.csv  (33 rows)
+2026-06-14 15:04:45 | INFO     | f1_cleaner:966 | Data dictionary → reports/data_dictionary.csv  (83 entries)
+2026-06-14 15:04:45 | INFO     | f1_cleaner:382 | ============================================================
+2026-06-14 15:04:45 | INFO     | f1_cleaner:383 | F1DataCleaner pipeline — COMPLETE
+2026-06-14 15:04:45 | INFO     | f1_cleaner:384 | ============================================================
+2026-06-14 15:04:45 | INFO     | run_cleaning:322 | Cleaning complete: 2 datasets, 46 total races, 0.4 s elapsed
+2026-06-14 19:06:24 | INFO     | run_cleaning:248 | run_cleaning.py starting
+2026-06-14 19:06:24 | INFO     | run_cleaning:249 | Arguments: processed_dir=/Users/misty/Documents/f1-race-strategy-analytics/data/processed  reports_dir=/Users/misty/Documents/f1-race-strategy-analytics/reports  quiet=False
+2026-06-14 19:06:25 | INFO     | f1_cleaner:321 | F1DataCleaner initialised
+2026-06-14 19:06:25 | INFO     | f1_cleaner:322 |   processed_dir : /Users/misty/Documents/f1-race-strategy-analytics/data/processed
+2026-06-14 19:06:25 | INFO     | f1_cleaner:323 |   reports_dir   : /Users/misty/Documents/f1-race-strategy-analytics/reports
+2026-06-14 19:06:25 | INFO     | f1_cleaner:346 | ============================================================
+2026-06-14 19:06:25 | INFO     | f1_cleaner:347 | F1DataCleaner pipeline — START
+2026-06-14 19:06:25 | INFO     | f1_cleaner:348 | ============================================================
+2026-06-14 19:06:25 | WARNING  | f1_cleaner:167 | Directory not found: /Users/misty/Documents/f1-race-strategy-analytics/data/raw/results
+2026-06-14 19:06:25 | INFO     | f1_cleaner:186 | Loaded laps          files= 46  rows=  51037  cols=35
+2026-06-14 19:06:25 | WARNING  | f1_cleaner:167 | Directory not found: /Users/misty/Documents/f1-race-strategy-analytics/data/raw/pitstops
+2026-06-14 19:06:25 | INFO     | f1_cleaner:186 | Loaded weather       files= 46  rows=   7309  cols=12
+2026-06-14 19:06:25 | INFO     | f1_cleaner:422 | Wet race detection: 10 wet / 36 dry out of 46 races
+2026-06-14 19:06:25 | WARNING  | f1_cleaner:460 | Results dataset is empty — skipping.
+2026-06-14 19:06:25 | INFO     | f1_cleaner:602 | Laps: compound — 0 missing before, 2 UNKNOWN after fill
+2026-06-14 19:06:25 | INFO     | f1_cleaner:634 | Laps: 0 lap time outliers flagged (outside 60–300 s)
+2026-06-14 19:06:25 | INFO     | f1_cleaner:652 | Laps cleaned: 51037 rows
+2026-06-14 19:06:25 | WARNING  | f1_cleaner:673 | Pit stops dataset is empty — skipping.
+2026-06-14 19:06:25 | WARNING  | f1_cleaner:819 | Weather: 349 out-of-range values in pressure_mbar clipped to [800, 1100]
+2026-06-14 19:06:25 | INFO     | f1_cleaner:831 | Weather cleaned: 7309 rows
+2026-06-14 19:06:25 | INFO     | f1_cleaner:195 | Saved  data/processed/results.parquet                      rows=0
+2026-06-14 19:06:25 | INFO     | f1_cleaner:195 | Saved  data/processed/laps.parquet                         rows=51037
+2026-06-14 19:06:25 | INFO     | f1_cleaner:195 | Saved  data/processed/pitstops.parquet                     rows=0
+2026-06-14 19:06:25 | INFO     | f1_cleaner:195 | Saved  data/processed/weather.parquet                      rows=7309
+2026-06-14 19:06:25 | INFO     | f1_cleaner:905 | Quality report → reports/quality_report.csv  (33 rows)
+2026-06-14 19:06:25 | INFO     | f1_cleaner:966 | Data dictionary → reports/data_dictionary.csv  (83 entries)
+2026-06-14 19:06:25 | INFO     | f1_cleaner:382 | ============================================================
+2026-06-14 19:06:25 | INFO     | f1_cleaner:383 | F1DataCleaner pipeline — COMPLETE
+2026-06-14 19:06:25 | INFO     | f1_cleaner:384 | ============================================================
+2026-06-14 19:06:25 | INFO     | run_cleaning:322 | Cleaning complete: 2 datasets, 46 total races, 0.5 s elapsed

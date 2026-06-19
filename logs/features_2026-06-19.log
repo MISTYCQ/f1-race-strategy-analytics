@@ -1,0 +1,76 @@
+2026-06-19 07:42:58 | INFO     | run_features:415 | run_features.py starting
+2026-06-19 07:42:58 | INFO     | run_features:416 | Arguments: processed_dir=/Users/misty/Documents/f1-race-strategy-analytics/data/processed  features_dir=/Users/misty/Documents/f1-race-strategy-analytics/data/features  quiet=False
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:344 | F1FeatureEngineer initialised
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:344 | F1FeatureEngineer initialised
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:345 |   processed_dir : /Users/misty/Documents/f1-race-strategy-analytics/data/processed
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:345 |   processed_dir : /Users/misty/Documents/f1-race-strategy-analytics/data/processed
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:346 |   features_dir  : /Users/misty/Documents/f1-race-strategy-analytics/data/features
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:346 |   features_dir  : /Users/misty/Documents/f1-race-strategy-analytics/data/features
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:360 | ============================================================
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:360 | ============================================================
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:361 | F1FeatureEngineer pipeline — START
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:361 | F1FeatureEngineer pipeline — START
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:362 | ============================================================
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:362 | ============================================================
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:270 | Loaded results         rows=    918  cols=27
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:270 | Loaded results         rows=    918  cols=27
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:270 | Loaded laps            rows=  51037  cols=37
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:270 | Loaded laps            rows=  51037  cols=37
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:270 | Loaded pitstops        rows=   1792  cols=17
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:270 | Loaded pitstops        rows=   1792  cols=17
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:270 | Loaded weather         rows=   7309  cols=12
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:270 | Loaded weather         rows=   7309  cols=12
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:446 | Accurate laps: 44840 / 51037 (87.9%)
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:446 | Accurate laps: 44840 / 51037 (87.9%)
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:378 | ── Building strategy features
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:378 | ── Building strategy features
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:528 | Strategy features: 886 driver-race rows
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:528 | Strategy features: 886 driver-race rows
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:381 | ── Building performance features
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:381 | ── Building performance features
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:608 | Performance features: 918 driver-race rows
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:608 | Performance features: 918 driver-race rows
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:384 | ── Building tire features
+2026-06-19 07:42:58 | INFO     | f1_feature_engineer:384 | ── Building tire features
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:694 | Tire features: 916 driver-race rows
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:694 | Tire features: 916 driver-race rows
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:387 | ── Building advanced strategy metrics
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:387 | ── Building advanced strategy metrics
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:851 | Advanced strategy features: 886 driver-race rows
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:851 | Advanced strategy features: 886 driver-race rows
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:390 | ── Building race context features
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:390 | ── Building race context features
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:1027 | Race context features: 46 races
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:1027 | Race context features: 46 races
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:394 | ── Merging driver feature blocks
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:394 | ── Merging driver feature blocks
+2026-06-19 07:42:59 | DEBUG    | f1_feature_engineer:1074 | Merged strategy — cols now: 33
+2026-06-19 07:42:59 | DEBUG    | f1_feature_engineer:1074 | Merged strategy — cols now: 33
+2026-06-19 07:42:59 | DEBUG    | f1_feature_engineer:1074 | Merged performance — cols now: 38
+2026-06-19 07:42:59 | DEBUG    | f1_feature_engineer:1074 | Merged performance — cols now: 38
+2026-06-19 07:42:59 | DEBUG    | f1_feature_engineer:1074 | Merged tire — cols now: 43
+2026-06-19 07:42:59 | DEBUG    | f1_feature_engineer:1074 | Merged tire — cols now: 43
+2026-06-19 07:42:59 | DEBUG    | f1_feature_engineer:1074 | Merged advanced — cols now: 46
+2026-06-19 07:42:59 | DEBUG    | f1_feature_engineer:1074 | Merged advanced — cols now: 46
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:1086 | Driver features merged: 918 rows × 48 cols
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:1086 | Driver features merged: 918 rows × 48 cols
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:400 | ── Building race-level features
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:400 | ── Building race-level features
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:1159 | Race features: 46 rows × 17 cols
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:1159 | Race features: 46 rows × 17 cols
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:278 | Saved  driver_features  rows=    918  → data/features/driver_features.parquet
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:278 | Saved  driver_features  rows=    918  → data/features/driver_features.parquet
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:278 | Saved  race_features   rows=     46  → data/features/race_features.parquet
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:278 | Saved  race_features   rows=     46  → data/features/race_features.parquet
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:409 | ============================================================
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:409 | ============================================================
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:410 | F1FeatureEngineer pipeline — COMPLETE
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:410 | F1FeatureEngineer pipeline — COMPLETE
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:411 |   driver_features rows : 918
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:411 |   driver_features rows : 918
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:412 |   race_features rows   : 46
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:412 |   race_features rows   : 46
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:413 | ============================================================
+2026-06-19 07:42:59 | INFO     | f1_feature_engineer:413 | ============================================================
+2026-06-19 07:42:59 | WARNING  | run_features:392 | Validation: tire_degradation_rate has 3 extreme values (outside [-2, 10] s/lap) — may indicate data quality issues.
+2026-06-19 07:42:59 | INFO     | run_features:539 | Feature engineering complete: driver_features=918 rows, race_features=46 rows, elapsed=0.6s, warnings=1

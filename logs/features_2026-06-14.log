@@ -1,0 +1,25 @@
+2026-06-14 19:06:46 | INFO     | run_features:415 | run_features.py starting
+2026-06-14 19:06:46 | INFO     | run_features:416 | Arguments: processed_dir=/Users/misty/Documents/f1-race-strategy-analytics/data/processed  features_dir=/Users/misty/Documents/f1-race-strategy-analytics/data/features  quiet=False
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:344 | F1FeatureEngineer initialised
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:344 | F1FeatureEngineer initialised
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:345 |   processed_dir : /Users/misty/Documents/f1-race-strategy-analytics/data/processed
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:345 |   processed_dir : /Users/misty/Documents/f1-race-strategy-analytics/data/processed
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:346 |   features_dir  : /Users/misty/Documents/f1-race-strategy-analytics/data/features
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:346 |   features_dir  : /Users/misty/Documents/f1-race-strategy-analytics/data/features
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:360 | ============================================================
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:360 | ============================================================
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:361 | F1FeatureEngineer pipeline — START
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:361 | F1FeatureEngineer pipeline — START
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:362 | ============================================================
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:362 | ============================================================
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:270 | Loaded results         rows=      0  cols=0
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:270 | Loaded results         rows=      0  cols=0
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:270 | Loaded laps            rows=  51037  cols=37
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:270 | Loaded laps            rows=  51037  cols=37
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:270 | Loaded pitstops        rows=      0  cols=0
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:270 | Loaded pitstops        rows=      0  cols=0
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:270 | Loaded weather         rows=   7309  cols=12
+2026-06-14 19:06:46 | INFO     | f1_feature_engineer:270 | Loaded weather         rows=   7309  cols=12
+2026-06-14 19:06:46 | ERROR    | f1_feature_engineer:371 | results or laps dataset is empty — cannot build features.
+2026-06-14 19:06:46 | ERROR    | f1_feature_engineer:371 | results or laps dataset is empty — cannot build features.
+2026-06-14 19:06:46 | INFO     | run_features:539 | Feature engineering complete: driver_features=0 rows, race_features=0 rows, elapsed=0.1s, warnings=1

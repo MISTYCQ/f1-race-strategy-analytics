@@ -1,0 +1,40 @@
+fastf1
+pandas
+numpy
+matplotlib
+plotly
+pyarrow
+sqlalchemy
+jupyter
+
+# F1 Strategy Dashboard — Python Dependencies
+# Pin versions for full reproducibility
+
+# Core data
+fastf1==3.4.0
+pandas==2.2.2
+numpy==1.26.4
+pyarrow==16.1.0          # Parquet read/write backend
+
+# Visualisation (EDA phase)
+matplotlib==3.9.0
+seaborn==0.13.2
+plotly==5.22.0
+kaleido==0.2.1           # Static export for Plotly
+
+# Database
+# SQLite ships with Python stdlib — no install needed
+
+# Utilities
+python-dotenv==1.0.1     # Load .env secrets
+tqdm==4.66.4             # Progress bars
+loguru==0.7.2            # Structured logging (replaces stdlib logging)
+tenacity==8.3.0          # Retry decorator for API calls
+
+# Testing
+pytest==8.2.2
+pytest-cov==5.0.0
+
+# Notebook support
+jupyterlab==4.2.2
+ipywidgets==8.1.3
