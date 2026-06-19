@@ -110,7 +110,7 @@ python run_collection.py
 python run_cleaning.py
 python run_features.py
 python run_analysis.py
-
+```
 ## Project Structure
 
 ```text
@@ -119,3 +119,4 @@ data/            Raw, processed and feature datasets
 reports/         Analysis outputs and visualizations
 src/             Collection, cleaning and analysis modules
 tableau_data/    Dashboard-ready datasets
+```
