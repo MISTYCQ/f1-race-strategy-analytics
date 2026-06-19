@@ -113,6 +113,7 @@ python run_analysis.py
 
 ## Project Structure
 
+```text
 config/          Configuration files
 data/            Raw, processed and feature datasets
 reports/         Analysis outputs and visualizations
